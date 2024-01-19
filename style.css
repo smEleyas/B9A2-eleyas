@@ -3,11 +3,15 @@
     padding: 0;
 }
 /* navbar style  */
+.header-container {
+    border: 2px dotted green;
+}
+
 .navbar {
     border: 2px solid red;
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: 1170px;
     margin: 20px auto;
     height: 60px;
     align-items: center;
@@ -43,17 +47,61 @@ padding: 10px;
 }
 
 /* banner style */
-
 .banner-container {
-    border: 2px solid red;
-    background-image: url(Images/banner.png);
-    background-repeat: no-repeat;
-    width: 60%;
-    margin: 0 auto;
-    height: 400px;
-    object-fit: cover;
-    
+    border: 2px dotted green;
 }
 .banner-content {
-    border: 2px solid red;
+    border: 2px solid black;
+    width: 1170px;
+    height: 500px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.banner-content img {
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+    width: 600px;
+    height: 300px;
+    opacity: 50%;
+    border-radius: 10px;
+}
+.banner-text h2 {
+padding: 20px 0;
+font-size: 50px;
+text-align: center;
+}
+.banner-text p {
+    padding-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    }
+.find-area form input, select, button {
+    padding: 10px;
+    width: 110px;
+    font-size: small;
+}
+
+/* destination style  */
+.banner-container {
+    border: 2px dotted green;
+}
+.banner-content {
+    border: 2px solid black;
+    width: 1170px;
+    height: 500px;
+    margin: 0px auto;
+    position: relative;
 }
